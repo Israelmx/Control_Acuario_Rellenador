@@ -46,7 +46,7 @@
 //#define STARTINDEXSUBTOPIC 39   // Topic: IsraXav/Sala/Acuario/Rellenador/RcbCmmn 39 chars
 //#define STARTINDEXSUBTOPIC 40   // Topic: IsraXav/Sala/Acuario/Rellenador2/RcbCmmn 40 chars
 //#define STARTINDEXSUBTOPIC 43   // Topic: IsraXav/Estudio/Gambario/Rellenador/RcbCmmn 43 chars
-//TODO Cambiar segun el largo del topico
+//TODO: Cambiar segun el largo del topico
 #define STARTINDEXSUBTOPIC 49   // Topic: IsraXav/Dormitorio/Acuario_Pas/Rellenador/RcbCmmn 90 chars
 
 /*============================================================================*\
@@ -71,7 +71,7 @@ El_SsubTopic_Es_T;
 //const char* MQTT_TOPIC                  = "RicXav/Sala/Acuario/Rellenador";
 //const char* MQTT_TOPIC                  = "IsraXav/Sala/Acuario/Rellenador";
 //const char* MQTT_TOPIC                  = "IsraXav/Estudio/Gambario/Rellenador";
-//TODO Cambiar el nombre del topico segun el rellenador que sea
+//TODO: Cambiar el nombre del topico segun el rellenador que sea
 const char* MQTT_TOPIC                  = "IsraXav/Dormitorio/Acuario_Pas/Rellenador";
 //MQTT Pub Topics
 const char* MQTT_PUBTOPIC_NIVAGUAREDR   = "/NivAguaRellenador";
@@ -93,7 +93,7 @@ const char* MQTT_STATE                  = "/state";     //Agrega en el topico la
 //const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V201_ACRDR";   //ID del dispositivo Acuario Rellenador
 //const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V201_ACRDR_RicXav";   //ID del dispositivo Acuario Rellenador
 //const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V201_GAMRDPAS";   //ID del dispositivo Acuario Rellenador
-//TODO Cambiar el nombre del dispositivo de MQTT
+//TODO: Cambiar el nombre del dispositivo de MQTT
 const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V202_ACRDRPAS";   //ID del dispositivo Acuario Rellenador
 
 const char MQTT_STATE_ON[] = "ON";

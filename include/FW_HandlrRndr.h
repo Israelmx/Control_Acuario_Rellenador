@@ -41,7 +41,7 @@
 /*============================================================================*\
  * Exported Preprocessor #define Constants
 \*============================================================================*/
-//TODO Cambiar el tiempo que se desee esperar para alarmar overtime rellenando
+//TODO: Cambiar el tiempo que se desee esperar para alarmar overtime rellenando
 //#define TIMER_ALRMOVRTMETME 120000 //Quiero que si pasan 120 segundos (2min) rellenando se genere alarma
 #define TIMER_ALRMOVRTMETME 240000 //Quiero que si pasan 240 segundos (4min) rellenando se genere alarma acuario pas 80 litros
 
