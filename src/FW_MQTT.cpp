@@ -42,12 +42,8 @@
 /*============================================================================*\
  * Local Preprocessor #define Constants
 \*============================================================================*/
-//#define STARTINDEXSUBTOPIC 38   // Topic: RicXav/Sala/Acuario/Rellenador/RcbCmmn 38 chars
-//#define STARTINDEXSUBTOPIC 39   // Topic: IsraXav/Sala/Acuario/Rellenador/RcbCmmn 39 chars
-//#define STARTINDEXSUBTOPIC 40   // Topic: IsraXav/Sala/Acuario/Rellenador2/RcbCmmn 40 chars
-//#define STARTINDEXSUBTOPIC 43   // Topic: IsraXav/Estudio/Gambario/Rellenador/RcbCmmn 43 chars
 //TODO: Cambiar segun el largo del topico
-#define STARTINDEXSUBTOPIC 49   // Topic: IsraXav/Dormitorio/Acuario_Pas/Rellenador/RcbCmmn 90 chars
+#define STARTINDEXSUBTOPIC 43   // Topic: IsraXav/Estudio/Gambario/Rellenador/RcbCmmn 43 chars
 
 /*============================================================================*\
  * Local Preprocessor #define MACROS
@@ -68,11 +64,8 @@ El_SsubTopic_Es_T;
  * Exported Object Definitions
 \*============================================================================*/
 //MQTT Topics
-//const char* MQTT_TOPIC                  = "RicXav/Sala/Acuario/Rellenador";
-//const char* MQTT_TOPIC                  = "IsraXav/Sala/Acuario/Rellenador";
-//const char* MQTT_TOPIC                  = "IsraXav/Estudio/Gambario/Rellenador";
 //TODO: Cambiar el nombre del topico segun el rellenador que sea
-const char* MQTT_TOPIC                  = "IsraXav/Dormitorio/Acuario_Pas/Rellenador";
+const char* MQTT_TOPIC                  = "IsraXav/Estudio/Gambario/Rellenador";
 //MQTT Pub Topics
 const char* MQTT_PUBTOPIC_NIVAGUAREDR   = "/NivAguaRellenador";
 const char* MQTT_PUBTOPIC_NIVAGUACUARIO = "/NivAguaAcuario";
@@ -90,20 +83,15 @@ const char* MQTT_SSUBTOPIC_RELLENAR     = "/Rellenando";
 //MQTT Pub state Topic
 const char* MQTT_STATE                  = "/state";     //Agrega en el topico la palabra state
 
-//const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V201_ACRDR";   //ID del dispositivo Acuario Rellenador
-//const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V201_ACRDR_RicXav";   //ID del dispositivo Acuario Rellenador
-//const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V201_GAMRDPAS";   //ID del dispositivo Acuario Rellenador
 //TODO: Cambiar el nombre del dispositivo de MQTT
-const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V202_ACRDRPAS";   //ID del dispositivo Acuario Rellenador
+const char HOST_MQTT_DEVICE_ID[]= "ESP8266_V2_1_0_GAM_RD_PAS";   //ID del dispositivo Acuario Rellenador
 
 const char MQTT_STATE_ON[] = "ON";
 const char MQTT_STATE_OFF[] = "OFF";
 const char MQTT_STATE_NVACBIEN[] = "BIEN";
 const char MQTT_STATE_NVACBAJO[] = "BAJO";
 
-//const char MQTT_IPSERVER[] = "192.168.1.11";      //RicXav
-//const char MQTT_IPSERVER[] = "192.168.17.75";     //IsraXav DockerLinux
-const char MQTT_IPSERVER[] = "192.168.17.77";     //IsraXav
+const char MQTT_IPSERVER[] = "192.168.17.77";     //IsraXav Docker Server Casa Pas
 const char MQTT_PORT[] = "1883";
 
 bool MsjMQTTRcb = false;
