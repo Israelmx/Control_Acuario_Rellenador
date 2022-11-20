@@ -42,7 +42,7 @@
  * Exported Preprocessor #define Constants
 \*============================================================================*/
 //TODO: Cambiar el tiempo que se desee esperar para alarmar overtime rellenando
-#define TIMER_ALRMOVRTMETME 90000 //Quiero que si pasan 90 segundos (1min30seg) rellenando se genere alarma
+#define TIMER_ALRMOVRTMETME 60000 //Quiero que si pasan 60 segundos (1min) rellenando se genere alarma
 
 /*============================================================================*\
  * Exported Preprocessor #define MACROS
